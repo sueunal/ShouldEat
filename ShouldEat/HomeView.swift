@@ -73,7 +73,6 @@ struct HomeView: View {
     @ViewBuilder
     func CookItem()-> some View{
         LazyVGrid(columns: columns) {
-
             ForEach(CookLevel, id: \.self) { value in
             NavigationLink {
                 Text("")

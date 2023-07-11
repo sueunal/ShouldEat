@@ -24,7 +24,18 @@ struct MainTabView: View {
                         Label("Login",systemImage: "person.crop.circle.fill")
                     }
             }
-        })
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarBackButtonHidden()
+            .toolbar{
+                ToolbarItem(placement: .principal){
+                    HStack{
+                        Image(systemName: "flame")
+                        Text("먹을까?")
+                    }
+                }
+            }
+        }
+        )
     }
 }
 
