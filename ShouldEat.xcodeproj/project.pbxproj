@@ -17,6 +17,8 @@
 		2C70190C2A5D1E010049A1FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70190B2A5D1E010049A1FF /* HomeView.swift */; };
 		2C70190E2A5D1E0F0049A1FF /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70190D2A5D1E0F0049A1FF /* LoginPageView.swift */; };
 		2C7019102A5D1E490049A1FF /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70190F2A5D1E490049A1FF /* ChatView.swift */; };
+		2CCD7F7A2A640BBA000A2F03 /* CooklList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD7F792A640BBA000A2F03 /* CooklList.swift */; };
+		2CE129472A5EC3F5009E1014 /* CookItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE129462A5EC3F5009E1014 /* CookItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		2C70190B2A5D1E010049A1FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2C70190D2A5D1E0F0049A1FF /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		2C70190F2A5D1E490049A1FF /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2CCD7F792A640BBA000A2F03 /* CooklList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooklList.swift; sourceTree = "<group>"; };
+		2CE129462A5EC3F5009E1014 /* CookItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				2C60F5732A5C681500B49CC4 /* MainTabView.swift */,
 				2C70190B2A5D1E010049A1FF /* HomeView.swift */,
 				2C70190D2A5D1E0F0049A1FF /* LoginPageView.swift */,
+				2CCD7F792A640BBA000A2F03 /* CooklList.swift */,
+				2CE129462A5EC3F5009E1014 /* CookItemView.swift */,
 				2C70190F2A5D1E490049A1FF /* ChatView.swift */,
 				2C60F5752A5C681600B49CC4 /* Assets.xcassets */,
 				2C60F5772A5C681600B49CC4 /* Preview Content */,
@@ -267,10 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C70190C2A5D1E010049A1FF /* HomeView.swift in Sources */,
+				2CE129472A5EC3F5009E1014 /* CookItemView.swift in Sources */,
 				2C60F5742A5C681500B49CC4 /* MainTabView.swift in Sources */,
 				2C7019102A5D1E490049A1FF /* ChatView.swift in Sources */,
 				2C60F5722A5C681500B49CC4 /* ShouldEatApp.swift in Sources */,
 				2C70190E2A5D1E0F0049A1FF /* LoginPageView.swift in Sources */,
+				2CCD7F7A2A640BBA000A2F03 /* CooklList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

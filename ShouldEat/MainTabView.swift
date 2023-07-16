@@ -29,7 +29,9 @@ struct MainTabView: View {
             .toolbar{
                 ToolbarItem(placement: .principal){
                     HStack{
-                        Image(systemName: "flame")
+                        Image("icon")
+                            .resizable()
+                            .frame(width: 40,height: 40)
                         Text("먹을까?")
                     }
                 }
