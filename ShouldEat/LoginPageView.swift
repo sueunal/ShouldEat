@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct LoginPageView: View {
+struct ContentView: View {
+    let showURL: Bool = true // Replace with your own condition for showing the URL
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+        }
     }
 }
 
-struct LoginPageView_Previews: PreviewProvider {
+
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginPageView()
+        ContentView()
     }
 }

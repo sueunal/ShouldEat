@@ -19,10 +19,10 @@ struct MainTabView: View {
                     .tabItem {
                         Label("Chat", systemImage: "message")
                     }
-                LoginPageView()
-                    .tabItem{
-                        Label("Login",systemImage: "person.crop.circle.fill")
-                    }
+//                LoginPageView()
+//                    .tabItem{
+//                        Label("Login",systemImage: "person.crop.circle.fill")
+//                    }
             }
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden()
@@ -41,7 +41,7 @@ struct MainTabView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
     }

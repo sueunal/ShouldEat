@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct CookItem {
-    private var Cook : String
+    private var CookName : String
     private var Material : String
+    private var CookIMG : Image
 }

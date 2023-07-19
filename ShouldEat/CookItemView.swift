@@ -29,7 +29,7 @@ struct CookItemView: View {
     @ViewBuilder
     func level1()-> some View{
         VStack{
-           Text("11111")
+           DetailView()
         }
     }
     @ViewBuilder
